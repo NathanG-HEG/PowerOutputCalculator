@@ -75,7 +75,7 @@ namespace PowerOutputCalculator
 
         static void SetHorsePower()
         {
-            Console.WriteLine("SET HORSE POWER - CURRENT: " + HorsePower + "l/100km");
+            Console.WriteLine("SET HORSE POWER - CURRENT: " + HorsePower + "hp");
             Console.WriteLine("\t Enter the fuel consumption");
             string? ans = Console.ReadLine();
             try
